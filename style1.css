@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(51, 45, 88);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 120px;
+    color: rgb(72, 139, 111);
+    font-family: 'Lobster', cursive;
+    
+}
+.player1{
+    display: flex;
+    color: rgb(72, 139, 111);
+    font-size: 1.5rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Playpen Sans', cursive;
+    margin: 0;
+    
+}
+.player2{
+    display: flex;
+    color: rgb(72, 139, 111);
+    font-size: 1.5rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Playpen Sans', cursive;
+}
+.players{
+    display: flex;
+    gap: 170px; 
+}
+
+
+.footer{
+    width:100%;
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 100px;
+    color: beige;
+    font-family: 'Indie Flower', cursive;
+    
+}
+ 
